@@ -11,7 +11,7 @@ class StatusBarController {
         statusItem.menu = menu
         
         if let button = statusItem.button {
-            button.image = stopImage
+            button.image = playImage
         }
     }
     
@@ -51,11 +51,11 @@ class StatusBarController {
         guard let window = NSApp.windows.first else { return }
         if window.isVisible {
             window.orderOut(nil)
-            statusItem.button?.image = playImage
+            statusItem.button?.image = stopImage
         } else {
             NSApp.activate(ignoringOtherApps: true)
             window.makeKeyAndOrderFront(nil)
-            statusItem.button?.image = stopImage
+            statusItem.button?.image = playImage
         }
         statusItem.menu = menu
     }
