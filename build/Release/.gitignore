@@ -1,0 +1,30 @@
+# Xcode
+*.xcworkspace
+*.xcuserdata
+*.xcuserstate
+*.xcodeproj/project.xcworkspace/xcuserdata/
+DerivedData/
+build/
+# если хотите игнорить только релизную сборку
+build/Release/
+
+# Бинарники
+*.app
+*.app.zip
+*.dmg
+
+# Swift Package Manager
+.build/
+Packages/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Общие
+*.swp
+*~
+.DS_Store
