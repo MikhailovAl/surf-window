@@ -5,4 +5,3 @@
 2. Extract and drag `SurfWindow.app` into the `Applications` folder (or simply double-click the `.app` if you’re not moving it to `Applications`).
 3. Launch the app – it will appear only in the status bar, with no Dock icon.
 4. Keep your focus!
-
