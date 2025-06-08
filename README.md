@@ -1,4 +1,8 @@
-# [An amazing ADHD MacOS utility for you routine](https://mikhailov-al.medium.com/an-amazing-adhd-macos-app-for-you-routine-be79eaf3c89e)
+# An amazing ADHD MacOS utility for you routine
+
+## Article
+
+[Medium](https://mikhailov-al.medium.com/an-amazing-adhd-macos-app-for-you-routine-be79eaf3c89e)
 
 ## Download and Run
 
