@@ -1,9 +1,0 @@
-{
-  "title": "SurfWindow",
-  "icon": "assets/app-icon.icns",
-  "background": "assets/dmg-background.png",
-  "contents": [
-    { "x": 180, "y": 220, "type": "file", "path": "build/Release/SurfWindow.app" },
-    { "x": 480, "y": 220, "type": "link", "path": "/Applications" }
-  ]
-}
