@@ -1,7 +1,7 @@
 ## Download and Run
 
-1. Go to [Releases](https://github.com/MikhailovAl/surf-window/releases).
-2. Download the `SurfWindow.dmg`
-3. Extract and drag `SurfWindow.app` into the `Applications` folder (or simply double-click the `.app` if you’re not moving it to `Applications`).
-4. Launch the app – it will appear only in the status bar, with no Dock icon.
+1. Download the [surf-window.dmg] (https://github.com/MikhailovAl/surf-window-macos/releases/download/v1.1/surf-window.dmg)
+2. Extract and drag `SurfWindow.app` into the `Applications` folder (or simply double-click the `.app` if you’re not moving it to `Applications`).
+3. Launch the app – it will appear only in the status bar, with no Dock icon.
+4. Keep ypur focus!
 
