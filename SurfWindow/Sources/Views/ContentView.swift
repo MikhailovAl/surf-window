@@ -5,6 +5,8 @@ struct ContentView: View {
     let initialWidth: CGFloat
     private let videoInfo = LocalVideoPlayerView()
     
+    @State private var isHovered = false
+    
     var body: some View {
         let initialHeight = initialWidth * videoInfo.aspectRatio
         ZStack {
@@ -28,7 +30,16 @@ struct ContentView: View {
                     height: initialHeight
                 )
             )
-            .frame(width: 0, height: 0)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            Text(isHovered ? "Settings in status bar" : "")
+                .font(.footnote)
+                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
+                .padding(.top, 8)
+                .background(Color.clear)
+                .contentShape(Rectangle())  
+                .onHover { inside in
+                    isHovered = inside
+                }
         }
     }
     
