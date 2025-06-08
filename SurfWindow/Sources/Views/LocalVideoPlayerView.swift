@@ -6,11 +6,8 @@ struct LocalVideoPlayerView {
     let player: AVQueuePlayer
     let looper: AVPlayerLooper?
     let aspectRatio: CGFloat
-
-    init(fileNames: [String] = ["Video", "Video2"], fileExtension: String = "mp4") {
-        
-        let fileName = fileNames.randomElement()!
-
+    
+    init(fileName: String = "Video", fileExtension: String = "mp4") {
         if let url = Bundle.main.url(forResource: fileName, withExtension: fileExtension) {
             let asset = AVURLAsset(url: url)
             if let track = asset.tracks(withMediaType: .video).first {

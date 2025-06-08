@@ -4,7 +4,7 @@ class StatusBarController {
     private let statusItem: NSStatusItem
     private let playImage = NSImage(systemSymbolName: "play.circle.fill", accessibilityDescription: "Play")
     private let stopImage = NSImage(systemSymbolName: "stop.circle.fill", accessibilityDescription: "Stop")
-    private let videoManager = VideoManager.shared  // или ваш менеджер
+    private let videoManager = VideoManager.shared
     
     init() {
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
@@ -61,7 +61,7 @@ class StatusBarController {
     }
     
     @objc private func nextVideo() {
-        // переключаем менеджер на следующее видео
+        
         videoManager.pickNextRandom()
     }
     

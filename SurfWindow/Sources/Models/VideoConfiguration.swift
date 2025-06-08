@@ -56,9 +56,7 @@ class VideoConfiguration: ObservableObject {
     func selectRandomVideo() {
         guard !videos.isEmpty else { return }
         var newVideo = currentVideo
-//        while newVideo == currentVideo && videos.count > 1 {
-            newVideo = videos.randomElement()
-//        }
+        newVideo = videos.randomElement()
         currentVideo = newVideo
     }
     
@@ -90,4 +88,4 @@ class VideoConfiguration: ObservableObject {
         
         try? data.write(to: configFileURL)
     }
-} 
+}
