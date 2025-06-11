@@ -5,4 +5,6 @@
 2. Extract and drag `SurfWindow.app` into the `Applications` folder (or simply double-click the `.app` if you’re not moving it to `Applications`).
 3. Launch the app – it will appear only in the status bar, with no Dock icon.
 4. Keep your focus!
+   
+# 
 ![ADHD MacOS Utility Jun 2025 copy](https://github.com/user-attachments/assets/d43963af-08d8-44a0-b7ad-0292b6dfa62d)
