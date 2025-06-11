@@ -1,4 +1,9 @@
 # An amazing ADHD MacOS utility to keep your focus
+<img 
+  src="https://github.com/user-attachments/assets/84150802-9fd9-48c4-86a9-0ed17ded828a" 
+  alt="ADHD MacOS Utility" 
+  width="300" 
+/>
 
 0. Read the article on [Medium](https://mikhailov-al.medium.com/an-amazing-adhd-macos-app-for-you-routine-be79eaf3c89e) (4 min read, with images!)
 1. Download the [surf-window.dmg](https://github.com/MikhailovAl/surf-window-macos/releases/download/v1.1/surf-window.dmg)
@@ -8,3 +13,4 @@
    
 # 
 ![ADHD MacOS Utility Jun 2025 copy](https://github.com/user-attachments/assets/d43963af-08d8-44a0-b7ad-0292b6dfa62d)
+
